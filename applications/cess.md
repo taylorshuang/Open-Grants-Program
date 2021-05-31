@@ -92,23 +92,28 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can running substrate to support storage service. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Article/Tutorial | We will publish an article/tutorial/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 0d. | Article/Tutorial | We will publish an article and a tutorial that explains the work done as part of the grant. |
+| 1a. | Substrate module: User Profile | We will create a Substrate module that will generate user profiles based on the user's subscription. |  
+| 1b. | Substrate module: Authentication Status | We will create a Substrate module that will allow users to apply to authenticate accounts and query authentication status. |  
+| 1c. | Substrate module: Storage | We will create a Substrate module that will process and upload user data, and support Integrity verification. |  
+| 2. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
 
 
 ### Milestone 2 Example — Additional features
 
 * **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** 4,000 USD
+* **FTE:**  2
+* **Costs:** 2,000 USD
 
-...
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how proof of storage service works. |
+| 0c. | Testing Guide | The code will have unit-test coverage (min. 80%) to ensure functionality and robustness. In the guide we will describe how to run these tests. |
+| 0d. | Article/Tutorial | We will publish an article and a tutorial that explains the work done as part of the grant. |
+| 1. | Stacked DRG Library | We will create a library for proving and verifying transactions, compatible with the substrate pallet. |  
 
 
 ## Future Plans
