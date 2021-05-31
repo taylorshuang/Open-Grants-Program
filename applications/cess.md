@@ -23,17 +23,18 @@ We expect the teams to already have a solid idea about your project's expected f
 
 Mockups/designs of any UI components
 
-* Global nodes
+* Global nodes: Display the global map and the number of global nodes of distributed storage network, and mark the location distribution of nodes according to coordinates; Display node list.
+
 ![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%871.png)
 
-* My cloud disk
+* My cloud disk: Personal storage space to view the files uploaded to the storage network; The list can be sorted by upload time, file name, file type and file size; Supports file download, share, property setting, deletion and other operations.
 ![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%872.png)
 
-* File upload
+* File upload: Select the files to be stored and set the relevant storage parameters.
 
 ![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%873.png)
 
-* search for file
+* Search for file: Search the whole network through keywords, and download the search results.
 ![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%874.png)
 
 ### Ecosystem Fit
