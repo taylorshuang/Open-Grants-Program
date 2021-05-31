@@ -34,7 +34,6 @@ We expect the teams to already have a solid idea about your project's expected f
 Polkadot provides a multi-chain application environment and a decentralized relay chain. Parachains can exchange information and transactions in a way without trust through relay chain of Polkadot. CESS can provide a public convenient and secure storage service for the parachains which does not need to apply local storage so as to make reasonable use of the storage space.
 
 CESS is a project for data storage. Similar projects in the Substrate/Polkadot/Kusama ecosystem include Ocean, DataHighway and Bluzelle. The differences between them are described in detail below.
-
 * Ocean : It provides data processing, storage, computing and other services, helping to expand the data boundary, especially in the field of AI. It is designed for scale and uses blockchain technology to allow data to be shared and traded in a secure and transparent manner. Comparatively, the purpose of CESS is to provide users with high-quality and low-cost storage services without data processing.
 * DataHighway：It is oriented to the Internet of things and provides data market at cross-chain level in the form of DAO. Although the project also supports the data storage function, it still serves the Internet of things.
 * Bluzelle：It is a Byzantine fault-tolerant Web3 distributed database. Developers pay to read and write the database. Although data storage is its basic function, it is still a data rental market in essence.
@@ -118,11 +117,7 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ## Future Plans
 
-Please include here
-
-* how you intend to use, enhance, promote and support your project in the short term, and
-* the team's long-term plans and intentions in relation to it.
-
+We will continue to provide the required storage space and storage proof for Polkadot ecosystem since our project can verify the authenticity of storage space or data.
 
 ## Additional Information :heavy_plus_sign:
 
