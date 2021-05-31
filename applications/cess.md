@@ -90,7 +90,7 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 * **Full-Time Equivalent (FTE):**  2
 * **Total Costs:** 8,000 USD
 
-### Milestone 1 Example — Implement Substrate Modules
+### Milestone 1: Implement Substrate Modules
 
 * **Estimated Duration:** 2 month
 * **FTE:**  2
@@ -108,7 +108,7 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 | 2. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
 
 
-### Milestone 2 Example — Additional features
+### Milestone 2: Implement Stacked DRG Proof
 
 * **Estimated Duration:** 1 month
 * **FTE:**  2
