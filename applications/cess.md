@@ -29,6 +29,8 @@ We expect the teams to already have a solid idea about your project's expected f
 * What your project is _not_ or will _not_ provide or implement
   * This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%871.png)
+
 ### Ecosystem Fit
 
 Polkadot provides a multi-chain application environment and a decentralized relay chain. Parachains can exchange information and transactions in a way without trust through relay chain of Polkadot. CESS can provide a public convenient and secure storage service for the parachains which does not need to apply local storage so as to make reasonable use of the storage space.
