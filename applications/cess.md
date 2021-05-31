@@ -21,15 +21,20 @@
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-* Mockups/designs of any UI components
-* Data models / API specifications of the core functionality
-* An overview of the technology stack to be used
-* Documentation of core components, protocols, architecture, etc. to be deployed
-* PoC/MVP or other relevant prior work or research on the topic
-* What your project is _not_ or will _not_ provide or implement
-  * This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+Mockups/designs of any UI components
 
+* Global nodes
 ![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%871.png)
+
+* My cloud disk
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%872.png)
+
+* File upload
+
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%873.png)
+
+* search for file
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%874.png)
 
 ### Ecosystem Fit
 
