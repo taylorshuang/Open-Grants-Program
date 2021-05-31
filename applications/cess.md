@@ -125,7 +125,7 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ## Future Plans
 
-We will continue to provide the required storage space and storage proof for Polkadot ecosystem since our project can verify the authenticity of storage space or data.
+We will continue to provide the required storage space and verifications of storage proof for Polkadot ecosystem since our project can verify the authenticity of storage space or data.
 
 ## Additional Information :heavy_plus_sign:
 
