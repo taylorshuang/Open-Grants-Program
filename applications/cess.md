@@ -1,30 +1,21 @@
 # W3F Open Grant Proposal
 
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines! Lines starting with a `>` (such as this one) can be removed.
->
-> See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/#pencil-process) on how to submit a proposal.
 
-* **Project Name:** Name of your project (e.g. DuoSwap Module)
-* **Team Name:** Legal name of your team (e.g. Duo)
+* **Project Name:** Cumulus Encrypted Storage System (CESS)
+* **Team Name:** CESS
 * **Payment Address:** BTC or Ethereum (USDT/DAI) payment address. We don't accept payments for the program in other currencies at this stage. If this is an Ethereum address, please specify USDT or DAI. (e.g. 0x8920... (DAI))
 
 
-> ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
-
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
 
-Please provide the following:
+* Tag line: An infrastructure of decentralized cloud network facilities based on Polkadot.
+* Brief description: CESS are the trailblazers of decentralized cloud storage infrastructure built upon the foundation of blockchain and cloud storage. Utilizing blockchain technology, CESS makes effective use of online idle storage resources to establish an infinite distributed storage network of low capacity data nodes. Simultaneously, with the help of virtualization technology and cloud computing technology, it implements effective management of these resources to reprocess then redistribute data and provide users with a secure and efficient data storage service. In addition, CESS provides a trading platform template for efficiency, transparency and equality for all data owners based on the characteristics of blockchain. These owners in turn may independently manage their own data on the CESS network, including data sharing and data trading, so as to facilitate other users to mine the intrinsic value of data and yield its potential benefits.
+* Indication 1: CESS plans to deploy in and enter the Polkadot ecosystem, creating a new decentralized cloud storage ecosystem, establishing a large-scale distributed storage network, and landing in commercial applications to meet the actual needs of commercial applications for large amounts of data storage.
+* Indication 2: Whether it is the Internet, or the blockchain, artificial intelligence, the Internet of Things, all the storage, calculation, transmission, all are still around data. Decentralized distributed storage based on blockchain, with the leading advantage of data certainty, makes data storage security possible and enables cross-platform, cross-collaboration and cross- format interoperability of data. The technical features of de-centralized storage, including data privacy non-tampering, privatization, capitalization, and trusted underlying infrastructure, future digital economy, are "scalability" of distributed storage for future applications.  At the same time, distributed storage can provide a back-up aid for the underlying infrastructure, and it will inevitably spawn many applications.  Distributed storage networks can better drive the arrival of Web3.0 and are one of the underlying technical infrastructure of Web3.0.
 
-* If the name of your project is not descriptive, a tag line (one sentence summary).
-* A brief description of your project.
-* An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-* An indication of why your team is interested in creating this project.
 
 ### Project Details
 
@@ -40,14 +31,13 @@ We expect the teams to already have a solid idea about your project's expected f
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+Polkadot provides a multi-chain application environment and a decentralized relay chain. Parachains can exchange information and transactions in a way without trust through relay chain of Polkadot. CESS can provide a public convenient and secure storage service for the parachains which does not need to apply local storage so as to make reasonable use of the storage space.
 
-* Where and how does your project fit into the ecosystem?
-* Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-* What need(s) does your project meet?
-* Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  * If so, how is your project different?
-  * If not, are there similar projects in related ecosystems?
+CESS is a project for data storage. Similar projects in the Substrate/Polkadot/Kusama ecosystem include Ocean, DataHighway and Bluzelle. The differences between them are described in detail below.
+
+* Ocean : It provides data processing, storage, computing and other services, helping to expand the data boundary, especially in the field of AI. It is designed for scale and uses blockchain technology to allow data to be shared and traded in a secure and transparent manner. Comparatively, the purpose of CESS is to provide users with high-quality and low-cost storage services without data processing.
+* DataHighway：It is oriented to the Internet of things and provides data market at cross-chain level in the form of DAO. Although the project also supports the data storage function, it still serves the Internet of things.
+* Bluzelle：It is a Byzantine fault-tolerant Web3 distributed database. Developers pay to read and write the database. Although data storage is its basic function, it is still a data rental market in essence.
 
 ## Team :busts_in_silhouette:
 
@@ -83,46 +73,21 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 * https://www.linkedin.com/<person_1>
 * https://www.linkedin.com/<person_2>
 
-## Development Status :open_book:
-
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-* links to improvement proposals or [RFPs](https://github.com/w3f/General-Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-* academic publications relevant to the problem,
-* links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-* references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-* previous interface iterations, such as mock-ups and wireframes.
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that the scope of the work can fit within a three-month period and that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-* make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-To assist you in defining it, we have created a document with examples for some grant categories [here](../src/grant_guidelines_per_category.md).
-* include the amount of funding requested _per milestone_.
-* include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-* provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-* commit to providing Dockerfiles for the delivery of your project.
-* indicate milestone duration as well as number of full-time employees working on each milestone, and include the approximate number of days along with the cost per day.
-* _Deliverables 0a-0d are mandatory_ and shall not be removed, unless you explicitly specify a reason within the PR's `Additional Notes` section (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
 ### Overview
 
-* **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-* **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-* **Total Costs:** Amount of payment in USD for the whole project. The total amount of funding _needs to be below $30k for initial grants_ and $100k for follow-up grants. (e.g. 12,000 USD). This and the costs for each milestone need to be in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
+* **Total Estimated Duration:** 3 months
+* **Full-Time Equivalent (FTE):**  2
+* **Total Costs:** 8,000 USD
 
 ### Milestone 1 Example — Implement Substrate Modules
 
-* **Estimated Duration:** 1 month
+* **Estimated Duration:** 2 month
 * **FTE:**  2
-* **Costs:** 8,000 USD
+* **Costs:** 6,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -156,10 +121,6 @@ Please include here
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Web3 Foundation Website
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-* Work you have already done.
-* Wheter there are any other teams who have already contributed (financially) to the project.
-* Previous grants you may have applied for.
+We already have a design prototype and pilots, and no any teams who have already contributed financially to the project. We have not applied for any other grants with this exact project.
