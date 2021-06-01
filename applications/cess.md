@@ -25,24 +25,24 @@ Mockups/designs of any UI components
 
 * Global nodes: Display the global map and the number of global nodes of distributed storage network, and mark the location distribution of nodes according to coordinates; Display node list.
 
-![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%871.png)
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/img1.png)
 
 * My cloud disk: Personal storage space to view the files uploaded to the storage network; The list can be sorted by upload time, file name, file type and file size; Supports file download, share, property setting, deletion and other operations.
-![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%872.png)
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/img2.png)
 
 * File upload: Select the files to be stored and set the relevant storage parameters.
 
-![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%876.png)
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/img3.png)
 
 * Search for file: Search the whole network through keywords, and download the search results.
-![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%877.png)
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/img4.png)
 
 Documentation of core components, protocols, architecture, etc. to be deployed
 
 * CESS is a high-speed, secure, scalable and decentralized cloud storage system. It can handle tens of thousands of transactions per second through parallel technology. Through Data slicing technology, it can achieve the secure storage of massive data, and it has the functions of Data confirmation and Data rights protection, which provides powerful data service ability. It provides DAPP with unlimited scalable storage capacity and perfect Data rights protection capability.
 
 * As shown in the figure, CESS adopts a layered and loosely coupled design method, which is divided into Blockchain service layer, distributed storage resource layer, Distributed content distribution layer and Application layer. Among them, Blockchain service layer provides blockchain service of the whole CESS network, including encouraging idle storage resources, computing resources to join CESS network to provides data transaction, data confirmation and other services for the application layer. the Distributed storage resource layer uses virtualization technology to realize the integration and pooling of storage resources. The infrastructure consists of storage capacity miners and storage scheduling miners. The distributed content distribution layer uses content caching technology to realize the fast push of stored data, which is composed of data index miner and data distribution miner. By API node of Application layer, CESS can realize data storage service, blockchain service to support enterprise level SDK, data storage network disk and computational intelligence applications, etc. 
-![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%875.png)
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/img5.png)
 
 ### Ecosystem Fit
 
