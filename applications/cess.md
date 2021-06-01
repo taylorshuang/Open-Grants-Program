@@ -99,7 +99,7 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ### Milestone 1: Implement Substrate Modules
 
-* **Estimated Duration:** 2 month
+* **Estimated Duration:** 2 months
 * **FTE:**  2
 * **Costs:** 6,000 USD
 
