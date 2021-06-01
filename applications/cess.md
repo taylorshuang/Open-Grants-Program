@@ -79,8 +79,8 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ### Team Code Repos
 
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+* https://github.com/Cumulus2021/CumulusSystem
+* https://github.com/Cumulus2021/Whitepaper
 
 ### Team LinkedIn Profiles
 
