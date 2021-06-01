@@ -32,10 +32,10 @@ Mockups/designs of any UI components
 
 * File upload: Select the files to be stored and set the relevant storage parameters.
 
-![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%873.png)
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%876.png)
 
 * Search for file: Search the whole network through keywords, and download the search results.
-![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%874.png)
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%877.png)
 
 Documentation of core components, protocols, architecture, etc. to be deployed
 
