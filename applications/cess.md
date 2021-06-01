@@ -42,7 +42,7 @@ Documentation of core components, protocols, architecture, etc. to be deployed
 * CESS is a high-speed, secure, scalable and decentralized cloud storage system. It can handle tens of thousands of transactions per second through parallel technology. Through Data slicing technology, it can achieve the secure storage of massive data, and it has the functions of Data confirmation and Data rights protection, which provides powerful data service ability. It provides DAPP with unlimited scalable storage capacity and perfect Data rights protection capability.
 
 * As shown in the figure, CESS adopts a layered and loosely coupled design method, which is divided into Blockchain service layer, distributed storage resource layer, Distributed content distribution layer and Application layer. Among them, Blockchain service layer provides blockchain service of the whole CESS network, including encouraging idle storage resources, computing resources to join CESS network to provides data transaction, data confirmation and other services for the application layer. the Distributed storage resource layer uses virtualization technology to realize the integration and pooling of storage resources. The infrastructure consists of storage capacity miners and storage scheduling miners. The distributed content distribution layer uses content caching technology to realize the fast push of stored data, which is composed of data index miner and data distribution miner. By API node of Application layer, CESS can realize data storage service, blockchain service to support enterprise level SDK, data storage network disk and computational intelligence applications, etc. 
-![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/img5.png)
+<div align=center><img width="72%" height="72%" src="https://raw.githubusercontent.com/swowk/picsforcess/main/img5.png"/></div>
 
 ### Ecosystem Fit
 
@@ -93,7 +93,7 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ### Overview
 
-* **Total Estimated Duration:** 3 months
+* **Total Estimated Duration:** 4 months
 * **Full-Time Equivalent (FTE):**  2
 * **Total Costs:** 8,000 USD
 
@@ -101,7 +101,7 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 * **Estimated Duration:** 2 months
 * **FTE:**  2
-* **Costs:** 6,000 USD
+* **Costs:** 4,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -112,10 +112,10 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 | 1a. | Substrate module: User Profile | We will create a Substrate module that will generate user profiles based on the user's subscription. |  
 | 1b. | Substrate module: Authentication Status | We will create a Substrate module that will allow users to apply to authenticate accounts and query authentication status. |  
 | 1c. | Substrate module: Storage | We will create a Substrate module that will process and upload user data, and support Integrity verification. |  
-| 2. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 2. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain. |
 
 
-### Milestone 2: Implement Stacked DRG Proof
+### Milestone 2: Implement Storage Mining
 
 * **Estimated Duration:** 1 month
 * **FTE:**  2
@@ -127,7 +127,29 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how proof of storage service works. |
 | 0c. | Testing Guide | The code will have unit-test coverage (min. 80%) to ensure functionality and robustness. In the guide we will describe how to run these tests. |
 | 0d. | Article/Tutorial | We will publish an article and a tutorial that explains the work done as part of the grant. |
-| 1. | Stacked DRG Library | We will create a library for proving and verifying transactions, compatible with the substrate pallet. |  
+| 1a. | Stacked DRG Library | We will create a library for proving and verifying transactions, compatible with the substrate pallet. |  
+| 1b. | zk-SNARK proofs | We will implement the algorithm to process the proof results from stacked DRG library. | 
+| 2. | CESS Contracts | Develop CESS contract implement function of storage mining. | 
+| 3. | Miner Client | Interactive with contract to implement mining supporting services. | 
+
+
+### Milestone 3: Implement and Integrate CESS Applications
+
+* **Estimated Duration:** 1 month
+* **FTE:**  2
+* **Costs:** 2,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 |
+| 0b. | Documentation | We will provide an application manual and a basic tutorial that introduces the functions of clients. |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. |
+| 0d. | Article/Tutorial | We will publish an article and a tutorial that explains the work done as part of the grant. |
+| 1. | Cryptographic modules | We will implement the cryptographic modules including inner product functional encryption and the associated zero-knowledge proof for storage proof. |  
+| 2. | UI Modules | We will design a user-friendly UI that supports both PC and mobile. | 
+| 3. | File processing | We provide abundant file operation services, including file upload, download, share, delete, etc. | 
+| 4. | Benchmark | Perform unit tests on the individual algorithms to ensure system safety. | 
+| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain. | 
 
 
 ## Future Plans
