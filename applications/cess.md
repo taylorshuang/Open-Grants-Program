@@ -37,6 +37,11 @@ Mockups/designs of any UI components
 * Search for file: Search the whole network through keywords, and download the search results.
 ![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%874.png)
 
+Documentation of core components, protocols, architecture, etc. to be deployed
+
+
+![Image](https://raw.githubusercontent.com/swowk/picsforcess/main/%E5%9B%BE%E7%89%875.png)
+
 ### Ecosystem Fit
 
 Polkadot provides a multi-chain application environment and a decentralized relay chain. Parachains can exchange information and transactions in a way without trust through relay chain of Polkadot. CESS can provide a public convenient and secure storage service for the parachains which does not need to apply local storage so as to make reasonable use of the storage space.
