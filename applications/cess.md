@@ -4,6 +4,7 @@
 * **Project Name:** Cumulus Encrypted Storage System (CESS)
 * **Team Name:** CESS
 * **Payment Address:** BTC or Ethereum (USDT/DAI) payment address. We don't accept payments for the program in other currencies at this stage. If this is an Ethereum address, please specify USDT or DAI. (e.g. 0x8920... (DAI))
+* **Level:** 1
 
 
 ## Project Overview :page_facing_up:
@@ -11,10 +12,10 @@
 
 ### Overview
 
-* Tag line: An infrastructure of decentralized cloud network facilities based on Polkadot.
-* Brief description: CESS are the trailblazers of decentralized cloud storage infrastructure built upon the foundation of blockchain and cloud storage. Utilizing blockchain technology, CESS makes effective use of online idle storage resources to establish an infinite distributed storage network of low capacity data nodes. Simultaneously, with the help of virtualization technology and cloud computing technology, it implements effective management of these resources to reprocess then redistribute data and provide users with a secure and efficient data storage service. In addition, CESS provides a trading platform template for efficiency, transparency and equality for all data owners based on the characteristics of blockchain. These owners in turn may independently manage their own data on the CESS network, including data sharing and data trading, so as to facilitate other users to mine the intrinsic value of data and yield its potential benefits.
-* Indication 1: CESS plans to deploy in and enter the Polkadot ecosystem, creating a new decentralized cloud storage ecosystem, establishing a large-scale distributed storage network, and landing in commercial applications to meet the actual needs of commercial applications for large amounts of data storage.
-* Indication 2: Whether it is the Internet, or the blockchain, artificial intelligence, the Internet of Things, all the storage, calculation, transmission, all are still around data. Decentralized distributed storage based on blockchain, with the leading advantage of data certainty, makes data storage security possible and enables cross-platform, cross-collaboration and cross- format interoperability of data. The technical features of de-centralized storage, including data privacy non-tampering, privatization, capitalization, and trusted underlying infrastructure, future digital economy, are "scalability" of distributed storage for future applications.  At the same time, distributed storage can provide a back-up aid for the underlying infrastructure, and it will inevitably spawn many applications.  Distributed storage networks can better drive the arrival of Web3.0 and are one of the underlying technical infrastructure of Web3.0.
+* Tag line: An infrastructure of decentralized cloud network facilities.
+* Brief description: Cumulus Encrypted Storage System (CESS) is dedicated to develop a new global decentralized cloud storage online data sharing platform – a network infrastructure that is transparent, efficient, and equal opportunity to all members of the global community. The CESS data sharing protocol enables: a) data interoperability in manner of cross-platform, cross-collaboration, and cross-format, b) tracing and monitoring data trading market, and c) fair and transparent data profit rewarding. CESS will adopt a phased approach to implement the above goals.
+* Indication 1: With the goal of entering Polkadot ecosystem, CESS will build a blockchain system based on Substrate directly, and plans to develop custom pallets on FRAME. In the future, CESS will consider integrating to Polkadot in the form of Parachain to create a new decentralized cloud storage ecosystem, establish a large-scale distributed storage network.
+* Indication 2: With rapid advances of new computing technologies such as big data and machine learning, the value of humanity’s digital assets, the so-called “Digital Gold”, are being discovered. Explosively growing amount of data in cyberspace calls for new technologies of secure data storage and efficient data sharing. The challenges are to achieve secure storage, efficient sharing, and trading with data owner’s rights protection, but current solutions are complex and worrisome. Distributed storage networks can better drive the arrival of Web3.0 and are one of the underlying technical infrastructure of Web3.0.
 
 
 ### Project Details
@@ -46,9 +47,9 @@ Documentation of core components, protocols, architecture, etc. to be deployed
 
 ### Ecosystem Fit
 
-Polkadot provides a multi-chain application environment and a decentralized relay chain. Parachains can exchange information and transactions in a way without trust through relay chain of Polkadot. CESS can provide a public convenient and secure storage service for the parachains which does not need to apply local storage so as to make reasonable use of the storage space.
+Polkadot provides a multi-chain application environment and a decentralized relay chain. Parachains can exchange information and transactions in a way without trust through relay chain of Polkadot. Through several proofs of storage, CESS can provide a public convenient and secure storage service for the users or Dapps which does not need to apply local storage so as to make reasonable use of the storage space.
 
-CESS is a project for data storage. Similar projects in the Substrate/Polkadot/Kusama ecosystem include Ocean, DataHighway and Bluzelle. The differences between them are described in detail below.
+CESS is a global decentralized cloud storage online data sharing platform. Similar projects in the Polkadot ecosystem include Ocean, DataHighway and Bluzelle. The differences between them are described in detail below.
 * Ocean : It provides data processing, storage, computing and other services, helping to expand the data boundary, especially in the field of AI. It is designed for scale and uses blockchain technology to allow data to be shared and traded in a secure and transparent manner. Comparatively, the purpose of CESS is to provide users with high-quality and low-cost storage services without data processing.
 * DataHighway：It is oriented to the Internet of things and provides data market at cross-chain level in the form of DAO. Although the project also supports the data storage function, it still serves the Internet of things.
 * Bluzelle：It is a Byzantine fault-tolerant Web3 distributed database. Developers pay to read and write the database. Although data storage is its basic function, it is still a data rental market in essence.
@@ -154,7 +155,7 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ## Future Plans
 
-We will continue to provide the required storage space and verifications of storage proof for Polkadot ecosystem since our project can verify the authenticity of storage space or data.
+We will continue to improve the substrate-based CESS blockchain and provide reusable modules for the substrate FRAME, and provide the required storage space and verifications of storage proof for more users through Polkadot ecosystem since our project can verify the authenticity of storage space or data.
 
 ## Additional Information :heavy_plus_sign:
 
