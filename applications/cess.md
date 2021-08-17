@@ -2,7 +2,7 @@
 
 
 * **Project Name:** Cumulus Encrypted Storage System (CESS)
-* **Team Name:** CESS
+* **Team Name:** CESS LAB
 * **Payment Address:** 0x378D889a6e66996C9Eda86D20D7E6adE666ce167(USDT)
 * **Level:** 1
 
