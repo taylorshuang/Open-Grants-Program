@@ -64,25 +64,35 @@ CESS is a global decentralized cloud storage online data sharing platform. Simil
 
 ### Team members
 
-* Name of team leader
-* Names of team members 
+* Joseph Li
+* Jinghong Zeng 
 
 ### Contact
 
-* **Contact Name:** Full name of the contact person in your team
-* **Contact Email:** Contact email (e.g. john@duo.com)
-* **Website:**
+* **Contact Name:** Jessie Dai
+* **Contact Email:** jessie@cess.cloud
+* **Website:** http://cess.cloud
 
 ### Legal Structure
 
-* **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-* **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+* **Registered Address:** 22 St Leonard's Ave, Lostock, Bolton BL6 4JE, England
+* **Registered Legal Entity:** Paul David Humphreys
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+* Team CESS
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+CESS technical team members have an affluent understanding of technology and have been involved in internationally renowned cloud storage companies as essential technical development members. 
+
+The background of our team members includes but not limited to cloud computing and storage, involved in cloud related PaaS and SaaS products research and development; unique insights into the network development, cryptography algorithm implementation, and performance optimization; comprehensive knowledge of public chain and played a major role in the development of public chain focusing on the delivery of commercial applications.
+
+For the past two years, CESS core team members have been developing and building a stable decentralized cloud storage service atop the distributed resources to surmount the security risks presented in the current centralized storage platform. The members are working in the UK, China, and India locations with the commitment creating a decentralized cloud storage data network for commercial use.
+* Joseph Li
+
+Joseph Li brings to our operations 24 years of experience as a Principal Network Engineer managing and supporting large-scale networks on a global scale. Amongst Joseph’s numerous achievements was the IP infrastructure conversion for a network of over 900 nodes and his major accomplishments within the field of VPN.
+* Jinghong Zeng
+
+Jinghong Zeng served more than 20 years with global telecommunications Ericsson as a Senior System Architect and Software Engineer, she has proven skills in data warehousing, data processing within distributed systems and a solid understanding of Blockchain.
 
 ### Team Code Repos
 
