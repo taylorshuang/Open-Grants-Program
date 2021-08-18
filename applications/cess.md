@@ -12,8 +12,8 @@
 
 ### Overview
 
-* Tag line: An infrastructure of decentralized cloud network facilities.
-* Brief description: Cumulus Encrypted Storage System (CESS) is dedicated to develop a new global decentralized cloud storage online data sharing platform – a network infrastructure that is transparent, efficient, and equal opportunity to all members of the global community. The CESS data sharing protocol enables: a) data interoperability in manner of cross-platform, cross-collaboration, and cross-format, b) tracing and monitoring data trading market, and c) fair and transparent data profit rewarding. CESS will adopt a phased approach to implement the above goals.
+* Tag line: An infrastructure for a blockchain-based decentralized cloud data network.
+* Brief description: Cumulus Encrypted Storage System (CESS) is dedicated to develop a new global decentralized cloud data storage platform – a blockchain-based network infrastructure that is transparent, efficient, and equal opportunity to all members of the global community. CESS encourages excess or under-utilized resources as nodes to join CESS’s unrestricted expandable network via the token economy incentive method. Each node joins the CESS peer-to-peer network by contributing data storage resources, computational resources, or network bandwidth. Built on our state-of-the-art virtualization and cloud computing technologies, CESS organizes and manages the participating resources providing clients with secure, high performance, and boundless cloud data storage services. Furthermore, the CESS protocol enables interconnection of network nodes, to build a large decentralized cloud storage system that supports up to 100PB storage scale to meet the demand of enterprise level data storage. CESS will adopt a phased approach to implement the above goals.
 * Indication 1: With the goal of entering Polkadot ecosystem, CESS will build a blockchain system based on Substrate directly, and plans to develop custom pallets on FRAME. In the future, CESS will consider integrating to Polkadot in the form of Parachain to create a new decentralized cloud storage ecosystem, establish a large-scale distributed storage network.
 * Indication 2: With rapid advances of new computing technologies such as big data and machine learning, the value of humanity’s digital assets, the so-called “Digital Gold”, are being discovered. Explosively growing amount of data in cyberspace calls for new technologies of secure data storage and efficient data sharing. The challenges are to achieve secure storage, efficient sharing, and trading with data owner’s rights protection, but current solutions are complex and worrisome. Distributed storage networks can better drive the arrival of Web3.0 and are one of the underlying technical infrastructure of Web3.0.
 
@@ -51,18 +51,25 @@ Documentation of core components, protocols, architecture, etc. to be deployed
 * Overall system architecture: CESS adopts a layered and loosely coupled system architecture, which is divided into blockchain service layer, distributed storage resource layer, distributed content delivery layer and application layer.
 <div align=center><img width="68%" height="68%" src="https://raw.githubusercontent.com/swowk/picsforcess/main/img7.png"/></div>
 
+* CESS MDRC mechanism workflow: CESS have designed a unique **Multi-format Data Rights Confirmation Mechanism (MDRC)**, which extracts data fingerprint from each data file to generate data certificate ID. By comparing similarities between data fingerprints, the system identifies data lineages of data files, and may take appropriate actions to prevent possible violations, and to provide strong evidences for owners’ data rights protection.
+<div align=center><img width="68%" height="68%" src="https://raw.githubusercontent.com/swowk/picsforcess/main/img8.png"/></div>
+
 ### Ecosystem Fit
 
-Polkadot provides a multi-chain application environment and a decentralized relay chain. Parachains can exchange information and transactions in a way without trust through relay chain of Polkadot. Through several proofs of storage, CESS can provide a public convenient and secure storage service for the users or Dapps which does not need to apply local storage so as to make reasonable use of the storage space.
+CESS is a distributed cloud data network with user friendly ledgers, novel consensus mechanism, multiple data authenticity proof schemes, and reliable network infrastructure. CESS offers data storage service with the advantages of low cost, privacy protection, security and robustness. With the implementation of CESS data confirmation and proxy re-encryption technology, CESS provides Web3.0 clients and DAPPs with trustworthy, secure and reliable data rights protection.
 
-CESS is a global decentralized cloud storage online data sharing platform. Similar projects in the Polkadot ecosystem include Ocean, DataHighway and Bluzelle. The differences between them are described in detail below.
-* Ocean : It provides data processing, storage, computing and other services, helping to expand the data boundary, especially in the field of AI. It is designed for scale and uses blockchain technology to allow data to be shared and traded in a secure and transparent manner. Comparatively, the purpose of CESS is to provide users with high-quality and low-cost storage services without data processing.
-* DataHighway：It is oriented to the Internet of things and provides data market at cross-chain level in the form of DAO. Although the project also supports the data storage function, it still serves the Internet of things.
-* Bluzelle：It is a Byzantine fault-tolerant Web3 distributed database. Developers pay to read and write the database. Although data storage is its basic function, it is still a data rental market in essence.
+Compared to the similar projects in the Polkadot ecosystem including Ocean, DataHighway and Bluzelle, CESS storage service features:
+* Encrypted data storage
+* Multiple copies (3 copies by default, more upon request)
+* Sharded and distributed on multiple nodes
+* Highly scalable storage space
+* Transactions secured by CESS blockchain
+* Data rights protection for data owners
+* Competitive cost
 
 ## Team :busts_in_silhouette:
 
-### Team members
+### Team advisors
 
 * Joseph Li
 * Jinghong Zeng 
@@ -89,10 +96,10 @@ The background of our team members includes but not limited to cloud computing a
 For the past two years, CESS core team members have been developing and building a stable decentralized cloud storage service atop the distributed resources to surmount the security risks presented in the current centralized storage platform. The members are working in the UK, China, and India locations with the commitment creating a decentralized cloud storage data network for commercial use.
 * Joseph Li
 
-Joseph Li brings to our operations 24 years of experience as a Principal Network Engineer managing and supporting large-scale networks on a global scale. Amongst Joseph’s numerous achievements was the IP infrastructure conversion for a network of over 900 nodes and his major accomplishments within the field of VPN.
+Joseph Li brings to our operations 24 years of experiences as a Principal Network Engineer managing and supporting large-scale networks on a global scale. Amongst Joseph’s numerous achievements was the IP infrastructure conversion for a network of over 900 nodes and his major accomplishments within the field of VPN.
 * Jinghong Zeng
 
-Jinghong Zeng served more than 20 years with global telecommunications Ericsson as a Senior System Architect and Software Engineer, she has proven skills in data warehousing, data processing within distributed systems and a solid understanding of Blockchain.
+Jinghong Zeng served more than 20 years with a global telecommunications cooperation as a Senior System Architect and Software Engineer, she has proven skills in data warehousing, data processing within distributed systems and a solid understanding of Blockchain.
 
 ### Team Code Repos
 
@@ -171,10 +178,10 @@ Jinghong Zeng served more than 20 years with global telecommunications Ericsson 
 
 ## Future Plans
 
-We will continue to improve the substrate-based CESS blockchain and provide reusable modules for the substrate FRAME, and provide the required storage space and verifications of storage proof for more users through Polkadot ecosystem since our project can verify the authenticity of storage space or data.
+We will continue to improve the substrate-based CESS blockchain and provide reusable modules for the substrate FRAME. The next phase of our project is to implement CESS  protocol for decentralized cloud on-chain data sharing platform.
 
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** Web3 Foundation Website
 
-We already have a design prototype and pilots, and no any teams who have already contributed financially to the project. We have not applied for any other grants with this exact project.
+We have already implemented a design prototype and pilot test system. We have not applied for any other grants so far.
