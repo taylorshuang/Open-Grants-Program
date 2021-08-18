@@ -106,11 +106,6 @@ Jinghong Zeng served more than 20 years with a global telecommunications coopera
 * https://github.com/Cumulus2021/CumulusSystem
 * https://github.com/Cumulus2021/Whitepaper
 
-### Team LinkedIn Profiles
-
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
-
 
 ## Development Roadmap :nut_and_bolt:
 
